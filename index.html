@@ -10,9 +10,36 @@
       href="./images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="./style/output.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Frontend Mentor | Fylo landing page with two column layout</title>
   </head>
-  <body>
+  <body class="bg-white w-[1440px] mx-auto">
+    <footer>
+
+    </footer>
+    
+    <!-- Main section -->
+    <main>
+      <section Id="hero-section" class="flex w-full justify-between items-center mt-14 mb-14">
+        <div class="w-1/2">
+          <h1 class="font-bold text-5xl py-5 text-[#070439]">all your files in one secure location, accessible anywhere.</h1>
+          <p class="font-normal text-lg text-[#070439]">Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
+          <div>
+            <input type="text" placeholder="Enter your email..." class="border-2 border-[#070439] rounded-sm py-3 px-6 w-[350px] mt-5 mr-3 text-[#bfbfbf]" />
+            <button class="bg-[#3065f8] text-white font-bold py-3 px-14 rounded-sm hover:cursor-pointer">Get Started</button>
+          </div>
+        </div>
+        <div class="w-1/2">
+          <img
+              src="./images/illustration-1.svg"
+              alt="bg-intro-desktop"
+              class=""
+              />
+        </div>
+      </section>
+    </main>
+
+
     <footer class="bg-[#07043B] pb-12 px-14">
         <section class=" flex justify-start items-end gap-56 h-[350px]">
           <section class="flex flex-col self-center gap-3.5">
@@ -71,6 +98,5 @@
             </div>
           </section>
     </footer>
-    </section>
   </body>
 </html>
